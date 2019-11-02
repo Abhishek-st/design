@@ -1,0 +1,170 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <title>All Utility</title>
+</head>
+<body>
+    <section class="hero">  
+        <h1>VIT VIBRANCE</h1>
+        <h3>2020 </h3>
+        <!-- <h5>on planet</h5> -->
+    </section>
+    <div class="posf">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed menu">
+        <a class="navbar-brand" href="#">Vibrance</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="http://127.0.0.1:8000/ide/home">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PRODUCT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://127.0.0.1:8000/ide/">IDE</a>
+                <a class="dropdown-item" href="http://127.0.0.1:8000/ide/plagren">PLAGIARISM CHECKING</a>
+                <div class="dropdown-divider"></div>
+              
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" method="POST" action="{% url 'wikires' %}"> 
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="title">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <section class="services">
+        <h1>GALLERY</h1>
+        <div class="col-wrapper">
+            <div class="service-col">
+                    <a href="group.jpeg" data-lightbox="mygallery"><img src="res.png" /></a>
+
+            </div>
+            <div class="service-col">
+                    <a href="group.jpeg" data-lightbox="mygallery"><img src="res.png" /></a>
+
+            </div> 
+            <div class="service-col">
+                    <a href="group.jpeg" data-lightbox="mygallery"><img src="res.png" /></a>
+            </div>  
+        </div>
+        <div class="col-wrapper">
+          <div class="service-col">
+                  <a href="group.jpeg" data-lightbox="mygallery"><img src="res.png" /></a>
+
+          </div>
+          <div class="service-col">
+                  <a href="group.jpeg" data-lightbox="mygallery"><img src="res.png" /></a>
+
+          </div> 
+          <div class="service-col">
+                  <a href="group.jpeg" data-lightbox="mygallery"><img src="res.png" /></a>
+          </div>  
+      </div>
+
+    </section>
+
+    <section class="services">
+      <h1>EVENTS</h1>
+      <div class="col-wrapper">
+          <div class="service-co">
+                  <img src="cod.jpg" />
+                  <h3>EVENT 1</h3>
+                  <p>
+                      mai aisa kyu hu mai aisa kyu hu , mai aisa hi hu mai aisa kyu hu mai aisa kyu hu , mai aisa hi hu
+                  </p>
+                  <h5>Fees: 500</h5>
+                  <button class="btn btn-primary">Register</button>
+          </div>
+          <div class="service-co">
+                  <img src="gnu.png"  />
+                  <h3>EVENT 2</h3>
+                  <p >
+                      mai aisa kyu hu mai aisa kyu hu , mai aisa hi hu mai aisa kyu hu mai aisa kyu hu , mai aisa hi hu
+                  </p>
+                  <h5>Fees: 500</h5>
+                  <button class="btn btn-primary">Register</button>
+          </div> 
+          <div class="service-co">
+                  <img src="li.jpg" />
+                  <h3>EVENT 3</h3>
+                  <p>
+                      mai aisa kyu hu mai aisa kyu hu , mai aisa hi hu mai aisa kyu hu mai aisa kyu hu , mai aisa hi hu
+                  </p>
+                  <h5>Fees: 500</h5>
+                  <button class="btn btn-primary">Register</button>
+    
+          </div>  
+      </div>
+
+  </section>
+
+
+
+    <section class="aboutus">
+
+        <h1>ABOUT Vibrance</h1>
+
+        <p class="abo-con">Vibrance – a national-level two-day cultural and sports festival is by far the largest cultural festival of VIT Chennai and since its inception has served as a pioneer of art and culture for the youth. It is a world where people will be overwhelmed to enter but never think of exit. Through the years providing a "one of it's kind" experience has been the predicament of the festival and achieving it every year has been our legacy. So carrying the same legacy forwards this time also</p>
+
+        <button class=abt-btn><i class="fa fa-long-arrow-right"> Read More</i></button>
+
+    </section>
+
+
+    <section class="team">
+        <h1>CONTACT US</h1>
+        <div class="team-wrapper">
+            <div class="col-team">
+                <div class="col">
+                    <img src="male.png" />
+                    <h3>Student</h3>
+                    <h5>AST</h5>
+                    <h5>9890834746</h5>
+                </div>
+            </div>
+            <div class="col-team">
+                    <div class="col">
+                        <img src="fem.png" />
+                        <h3>Student</h3>
+                        <h5>sat</h5>
+                        <h5>7000476567</h5>
+                    </div>
+            </div>
+            <div class="col-team">
+                    <div class="col">
+                        <img src="male.png" />
+                        <h3>Faculty</h3>
+                        <h5>Ansari</h5>
+                        <h5>7000042147</h5>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
